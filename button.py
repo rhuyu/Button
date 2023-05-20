@@ -9,7 +9,7 @@ def button_click():
 root = tk.Tk()
 root.title("Button Example")
 
-# Creating widget that takes in 3 parameters, destination, text displayed, and event
+# Creating widget object that takes in 3 parameters: destination, text displayed, and event
 button  = tk.Button(root, text="Click Me!", command=button_click)
 button.pack()
 
